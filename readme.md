@@ -57,6 +57,20 @@ To build and deploy your simple Node.js application, i will need the following r
      ```
 
 Make sure to verify the installation of each tool after running the respective commands.
+6. **AWS CLI
+   sudo yum update -y
+   sudo yum install -y curl unzip
+   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   unzip awscliv2.zip
+   sudo ./aws/install
+   aws --version
+
+
+
+
+   
+
+   
 
 ## First Step: Docker Image and Deployment to Docker Hub
 
